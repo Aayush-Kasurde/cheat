@@ -1,0 +1,12 @@
+List operating system details:
+
+import platform
+platform.uname()
+platform.linux_distribution()
+platform.architecture()
+
+Run a command and print it's output per line:
+
+import subprocess
+files=subprocess.check_output(['lsof'])
+print files.split('\n')
