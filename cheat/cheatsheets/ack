@@ -1,0 +1,8 @@
+# Search all files (recursively) for SoupSession
+ack SoupSession
+
+# Search only C source files for SoupSession
+ack --type=cc SoupSession
+
+# List all recognized file types
+ack --help-types
